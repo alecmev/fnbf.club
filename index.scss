@@ -1,3 +1,76 @@
-.test {
-  color: red;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300,700);
+
+$dark: #000;
+$light: #999;
+$blue: #00c;
+
+body {
+  font-family: 'Titillium Web';
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+  color: $blue;
+}
+
+.background {
+  background: url(https://i.imgur.com/UAZ5tYp.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 64px;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.subtitle {
+  margin-top: -32px;
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description {
+  width: 480px;
+  text-align: justify;
+  margin: 32px auto 0 auto;
+  font-size: 16px;
+  line-height: 25px;
+  text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-family: Arial, sans-serif;
+}
+
+.divider {
+  height: 1px;
+  width: 64px;
+  background-color: $light;
+  margin: 32px auto 0 auto;
+}
+
+.links {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 32px auto 0 auto;
+  width: 480px;
+
+  &-divider {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-color: $light;
+    vertical-align: middle;
+    margin: 0 12px;
+  }
 }

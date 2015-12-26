@@ -1,1 +1,5 @@
+.sass-cache/
+
+*.lock
+*.map
 *.sublime-workspace

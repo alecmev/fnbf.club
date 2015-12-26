@@ -74,3 +74,12 @@ a {
     margin: 0 12px;
   }
 }
+
+.copyright {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  color: $dark;
+}
